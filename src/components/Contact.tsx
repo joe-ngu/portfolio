@@ -50,7 +50,12 @@ const Contact = ({ setSelectedPage }: Props) => {
             </div>
             {/* CONTACT FORM */}
             <div className="mb-10 flex">
-              <form target="_blank" onSubmit={onSubmit}>
+              <form
+                target="_blank"
+                onSubmit={onSubmit}
+                action="https://formsubmit.co/3fb95cdb357d03e7baea9892cd2b2413"
+                method="POST"
+              >
                 <input
                   className={inputStyles}
                   type="text"

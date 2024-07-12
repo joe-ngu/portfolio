@@ -1,42 +1,23 @@
 import { ProjectType, SelectedPage } from '@/utils/types';
 import { motion } from 'framer-motion';
 import Project from '@/components/Project';
+import VacayHomesImg from '@/assets/vacay-homes.png';
+import EvoGymImg from '@/assets/evogym.png';
 
 const projects: Array<ProjectType> = [
   {
     name: 'Vacay Homes',
     description: 'Vacay Homes Description',
-    image: '#',
-    codeURL: '#',
-    demoURL: '#',
+    image: VacayHomesImg,
+    codeURL: 'https://github.com/joe-ngu/vacay-homes',
+    demoURL: 'https://vacay-homes.vercel.app/',
   },
   {
-    name: 'Vacay Homes',
-    description: 'Vacay Homes Description',
-    image: '#',
-    codeURL: '#',
-    demoURL: '#',
-  },
-  {
-    name: 'Vacay Homes',
-    description: 'Vacay Homes Description',
-    image: '#',
-    codeURL: '#',
-    demoURL: '#',
-  },
-  {
-    name: 'Vacay Homes',
-    description: 'Vacay Homes Description',
-    image: '#',
-    codeURL: '#',
-    demoURL: '#',
-  },
-  {
-    name: 'Vacay Homes',
-    description: 'Vacay Homes Description',
-    image: '#',
-    codeURL: '#',
-    demoURL: '#',
+    name: 'Evo-Gym',
+    description: 'EvoGym Description',
+    image: EvoGymImg,
+    codeURL: 'https://github.com/joe-ngu/evo-gym',
+    demoURL: 'https://evo-gym-6bz.pages.dev/',
   },
 ];
 

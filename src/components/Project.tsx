@@ -11,7 +11,7 @@ type Props = {
 const Project = ({ name, description, image, codeURL, demoURL }: Props) => {
   return (
     <div className="z-1 overflow-hidden rounded-xl bg-black/40 shadow-xl">
-      <a href="/" className="group col-span-3">
+      <a href={demoURL} className="group col-span-3">
         <img
           src={image}
           alt={`${image}`}

@@ -42,6 +42,7 @@ const Home = ({ setSelectedPage }: Props) => {
               <div className="flex gap-8">
                 <a
                   href="/"
+                  download={ProfilePicture}
                   title="Download CV"
                   role="button"
                   className="bg-secondary btn-gradient-glow relative mb-10 items-center justify-center rounded-xl px-3 py-2 text-sm font-bold text-white

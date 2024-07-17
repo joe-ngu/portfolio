@@ -36,7 +36,7 @@ const Projects = ({ setSelectedPage }: Props) => {
         <div className="mb-6 grid grid-cols-2">
           <div className="my-auto text-left text-gray-300">
             <h1 className="mb-8 text-5xl tracking-tight">My Work</h1>
-            <p className="max-w-[500px] text-xl leading-relaxed">About my work text blah blah</p>
+            <p className="max-w-[500px] text-xl leading-relaxed">Here are some of the projects I have worked on.</p>
           </div>
         </div>
 

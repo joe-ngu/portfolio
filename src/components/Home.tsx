@@ -3,6 +3,7 @@ import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import ProfilePicture from '@/assets/profile-pic.png';
+import Resume from '@/assets/resume.pdf';
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -41,8 +42,8 @@ const Home = ({ setSelectedPage }: Props) => {
               </div>
               <div className="flex gap-8">
                 <a
-                  href="/"
-                  download={ProfilePicture}
+                  href={Resume}
+                  download="resume.pdf"
                   title="Download CV"
                   role="button"
                   className="bg-secondary btn-gradient-glow relative mb-10 items-center justify-center rounded-xl px-3 py-2 text-sm font-bold text-white

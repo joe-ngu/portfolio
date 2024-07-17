@@ -7,14 +7,14 @@ import EvoGymImg from '@/assets/evogym.png';
 const projects: Array<ProjectType> = [
   {
     name: 'Vacay Homes',
-    description: 'Vacay Homes Description',
+    description: 'A home rental platform for vacationers',
     image: VacayHomesImg,
     codeURL: 'https://github.com/joe-ngu/vacay-homes',
     demoURL: 'https://vacay-homes.vercel.app/',
   },
   {
     name: 'Evo-Gym',
-    description: 'EvoGym Description',
+    description: 'A gym landing page for an upcoming fitness brand',
     image: EvoGymImg,
     codeURL: 'https://github.com/joe-ngu/evo-gym',
     demoURL: 'https://evo-gym-6bz.pages.dev/',

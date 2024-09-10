@@ -18,14 +18,14 @@ const About = () => {
         {/* ABOUT HEADER */}
         <div className="mb-4 flex flex-col items-center justify-center text-center sm:flex-row sm:justify-between sm:text-left">
           <div className="w-full max-w-4xl text-primary-500">
-            <h1 className="mb-2 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">About Me</h1>
+            <h1 className="mb-2 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">C'est moi</h1>
             <br />
             <p className="mx-auto text-base leading-relaxed sm:text-lg md:text-xl">
               Hi there! I'm Joseph, a software engineer who loves tackling challenges and finding creative solutions
               through technology. Whether it’s automating everyday tasks or building something entirely new, I’m always
-              looking for ways to improve things. My other interests include chess, calesthenics, video games. Right
-              now, I’m working on a few exciting projects while also exploring job opportunities. I'd love to hear from
-              you, so feel free to reach out if you'd like to chat or collaborate!
+              looking for ways to improve things. I also enjoy chess, calisthenics, and video games. Currently, I’m
+              working on some exciting projects while exploring new job opportunities. Feel free to reach out if you’d
+              like to chat or collaborate—I’d love to connect!
             </p>
             <div className="flex justify-center gap-8 pt-8 md:justify-start">
               <a

@@ -18,7 +18,7 @@ const Projects = () => {
       >
         {/* PROJECT HEADER */}
         <div className="mb-6 text-center text-primary-500 sm:text-left">
-          <h1 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">Recent Projects</h1>
+          <h1 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">Works</h1>
           <p className="mx-auto text-base leading-relaxed sm:text-lg md:text-xl">
             Here are some of the projects I have worked on.
           </p>

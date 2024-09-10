@@ -27,7 +27,7 @@ const Skills = () => {
 
         <p className="mx-auto text-lg leading-relaxed sm:mx-0 sm:text-xl">
           Although I am a Python developer at heart, I enjoy experimenting with different tech stacks and learning new
-          technologies. Here are some of the tech that I am most familiar with:
+          skills. Here are some of the tech that I am most familiar with:
         </p>
         <div className="relative overflow-hidden rounded-3xl bg-primary-300 py-8 sm:py-10">
           <div className="absolute left-0 top-0 z-10 h-full w-8 bg-gradient-to-l from-transparent to-primary-300 sm:w-16 lg:w-32" />

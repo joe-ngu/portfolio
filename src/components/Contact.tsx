@@ -33,12 +33,12 @@ const Contact = () => {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             {/* HEADER */}
             <div className="mb-4 flex flex-col justify-around py-2 sm:py-4 md:mb-0">
-              <h1 className="text-primary-500 mb-4 text-4xl font-bold tracking-tight sm:text-5xl">Contact Me</h1>
-              <p className="text-primary-500 mt-4 text-lg sm:text-xl md:text-2xl">
-                Let's connect on LinkedIn <br /> or send me an Email
+              <h1 className="mb-4 text-4xl font-bold tracking-tight text-primary-500 sm:text-5xl">Let's Chat</h1>
+              <p className="mt-4 text-lg text-primary-500 sm:text-xl md:text-2xl">
+                Feel free to connect with me on LinkedIn <br /> or reach out via email
               </p>
 
-              <div className="text-primary-100 mt-4 flex items-center">
+              <div className="mt-4 flex items-center text-primary-100">
                 <AiFillMail size={28} />
                 <div className="text-md ml-4 tracking-wide">
                   <p>Joseph Nguyen</p>
@@ -50,7 +50,7 @@ const Contact = () => {
               <form
                 target="_blank"
                 onSubmit={onSubmit}
-                action="https://formsubmit.co/3fb95cdb357d03e7baea9892cd2b2413"
+                action="https://formsubmit.co/joengwind@gmail.com"
                 method="POST"
                 className="w-full max-w-[500px]"
               >
@@ -88,7 +88,7 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  className="bg-primary-500 text-primary-100 hover:bg-primary-400 hover:text-primary-500 mt-5 w-full rounded-lg px-5 py-3 sm:w-auto sm:px-20"
+                  className="mt-5 w-full rounded-lg bg-primary-500 px-5 py-3 text-primary-100 hover:bg-primary-400 hover:text-primary-500 sm:w-auto sm:px-20"
                 >
                   SUBMIT
                 </button>

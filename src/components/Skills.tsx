@@ -17,9 +17,12 @@ const Skills = () => {
   }, []);
 
   return (
-    <section id="skills" className="container mx-auto w-full gap-16 bg-primary-300 p-4 text-primary-500 sm:p-6 md:p-8">
+    <section
+      id="skills"
+      className="container mx-auto w-full gap-16 bg-primary-300 px-4 py-6 text-primary-500 sm:px-6 sm:py-8 md:px-8 md:py-10 lg:py-12"
+    >
       <motion.div
-        className="mx-auto w-full pb-6 pt-8 sm:pb-6 sm:pt-8"
+        className="mx-auto w-full max-w-screen-lg py-10"
         onViewportEnter={() => setSelectedSection(SelectedSection.Skills)}
         viewport={{ once: false, amount: 0.5 }}
       >
@@ -51,6 +54,9 @@ const Skills = () => {
           </div>
 
           <div className="absolute right-0 top-0 z-10 h-full w-8 bg-gradient-to-r from-transparent to-primary-300 sm:w-16 lg:w-32" />
+        </div>
+        <div className="flex justify-center">
+          <div className="mx-4 w-full max-w-screen-lg border-b border-primary-500 md:mx-8" />
         </div>
       </motion.div>
     </section>
